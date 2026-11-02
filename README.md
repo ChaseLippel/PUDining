@@ -6,15 +6,12 @@ A Java command-line tool that checks every Purdue dining court's menu for your f
 
 Purdue has a lot of dining courts with menus that change every meal, so finding out when my favorite foods are being served means checking each dining court one by one. I often skip going to the dining hall when my favorite food is being served because I am too lazy to check.
 
-## How It Works (MVP Scope)
+## How It Works 
 
-Version 1.0 will:
-
-- Fetch today's menu for each dining court from the Purdue Dining API
-- Parse each menu into a list of food items
-- Load my favorite foods from `favorites.txt`
-- Match favorites against each menu (ignoring capitalization) and print the matches by dining court
-- Recommend the dining court with the most matches
+- Fetch the entire dining court menu and all the foods being served that day
+- Grab a list filled with favorites foods of the USER
+- Parse the two lists
+- Compare the two lists and return the best possible dining court for that day
 
 ![System diagram](docs/diagram.png)
 
