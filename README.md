@@ -13,7 +13,7 @@ Purdue has a lot of dining courts with menus that change every meal, so finding 
 - Parse the two lists
 - Compare the two lists and return the best possible dining court for that day
 
-![System diagram](docs/diagram.png)
+![System diagram](docs/diagram.drawio.png)
 
 The full feature breakdown is in the [Eisenhower Matrix](docs/eisenhower-matrix.pdf).
 
