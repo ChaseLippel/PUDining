@@ -9,13 +9,13 @@ Purdue has a lot of dining courts with menus that change every meal, so finding 
 ## How It Works 
 
 - Fetch the entire dining court menu and all the foods being served that day
-- Grab a list filled with favorites foods of the USER
+- Grab a list filled with favorite foods of the USER
 - Parse the two lists
 - Compare the two lists and return the best possible dining court for that day
 
-![System diagram](docs/diagram.drawio.png)
+![System Diagram](System%20Diagram.png)
 
-The full feature breakdown is in the [Eisenhower Matrix](docs/eisenhower-matrix.pdf).
+The full feature breakdown is in the [Eisenhower Matrix](Eisenhower%20Matrix.pdf).
 
 ## Tech Stack
 
@@ -33,8 +33,10 @@ The full feature breakdown is in the [Eisenhower Matrix](docs/eisenhower-matrix.
 
 ```
 PUDining/
-├── src/          Java source code
-├── docs/         Eisenhower Matrix and system diagram
+├── src/                    Java source code
+├── Eisenhower Matrix.pdf   Feature planning (MVP vs. later vs. cut)
+├── System Diagram.png      Flowchart of how the program works
+├── System Diagram.drawio   Editable source for the diagram
 └── README.md
 ```
 
@@ -46,12 +48,12 @@ PUDining/
 
 Planned features after the MVP (from the "Schedule" quadrant):
 
-- [ ] Show which meal (breakfast / lunch / dinner) each favorite is served at
-- [ ] Check upcoming days, not just today
-- [ ] Add / remove favorites with commands instead of editing the file
-- [ ] Partial keyword matching (e.g. "chicken" matches "Chicken Carnitas")
-- [ ] Filter by dietary info (vegetarian / vegan)
-- [ ] Run automatically every morning
+- [ ] Show which meal each favorite is served at and where
+- [ ] Check the whole week, not just today, to make a plan
+- [ ] Add or remove favorites easily with commands
+- [ ] Filter by dietary options like vegan or vegetarian
+- [ ] Cache each day's menu so it isn't calling the API every time
+- [ ] Write JUnit tests for the logic
 
 ## Author
 
